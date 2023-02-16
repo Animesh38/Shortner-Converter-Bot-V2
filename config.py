@@ -9,12 +9,12 @@ load_dotenv()
 # Mandatory variables for the bot to start
 API_ID = int(os.getenv("API_ID", "Your Api Id"))
 API_HASH = os.environ.get("API_HASH", "Your Api Hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
+BOT_TOKEN = os.environ.get("5990584791:AAHMUzpa_K_xxL2G0DnFODKFq6-Ns7qhh-A", "Bot Token")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("Owner Id")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Tarrabox")
 DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
-OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
+OWNER_ID =  int(os.environ.get("5389376476", "5389376476")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(Id Owned Id)
 #  Optionnal variables
